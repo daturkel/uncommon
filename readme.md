@@ -1,16 +1,7 @@
-<p align="center">
-  <img src="images/common.png" height="64">
-<p align="center">A simple, clean and minimal prompt.</p>
+# <em>un</em>common
+<img src="screenshot.png" height="64">
 
-<p align="center"><img src="images/screenshot.png" height="550"></p>
-
-- Current working directory
-- Hostname (Shown on remote SSH shell only)
-- AWS Vault Role
-- Background jobs
-- Current SHA (optional)
-- Exit code of last command
-- Git branch/status
+A fork of the zsh [common](https://github.com/jackharrisonsherlock/common) theme by [Jack Harrison-Sherlock](https://github.com/jackharrisonsherlock).
 
 ## Installation
 
@@ -19,7 +10,7 @@
 Update your `.zshrc` file with:
 
 ```sh
-antigen bundle jackharrisonsherlock/common
+antigen bundle daturkel/uncommon
 ```
 
 ### [Antibody](https://github.com/getantibody/antibody)
@@ -27,16 +18,16 @@ antigen bundle jackharrisonsherlock/common
 Update your `.zshrc` file with:
 
 ```sh
-antibody bundle jackharrisonsherlock/common
+antibody bundle daturkel/uncommon
 ```
 
 ### [Oh My Zsh](http://ohmyz.sh)
 
 ```sh
-wget -O $ZSH_CUSTOM/themes/common.zsh-theme https://raw.githubusercontent.com/jackharrisonsherlock/common/master/common.zsh-theme
+wget -O $ZSH_CUSTOM/themes/uncommon.zsh-theme https://raw.githubusercontent.com/daturkel/uncommon/master/uncommon.zsh-theme
 ```
 
 Update your `.zshrc` file with:
 ```sh
-ZSH_THEME="common"
+ZSH_THEME="uncommon"
 ```
